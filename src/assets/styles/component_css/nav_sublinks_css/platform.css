@@ -1,0 +1,85 @@
+
+/* Sub Link Wrapper */
+.megaMenuWrapper {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.08);
+  padding: 28px;
+}
+
+.platformMenu {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 32px;
+}
+
+.platformOverviewCard {
+  background: linear-gradient(135deg, #050b2e, #2a0f1e);
+  color: white;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.platformLinksGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.platformLinkItem {
+  display: flex;
+  gap: 14px;
+  cursor: pointer;
+}
+
+.solutionMenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.solutionItem {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.industryList li {
+  padding: 6px 0;
+  font-weight: 500;
+}
+
+.developerMenu {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+}
+
+.developerNavItem {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sdkIcons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.sdkIcons span {
+  background: #f5f7fb;
+  padding: 14px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+}
