@@ -1,0 +1,128 @@
+/* ---------------- 
+   MULTI LANGUAGE 
+----------------- */
+
+.multiLanguageSection {
+  padding: 120px 80px;
+  background-color: #f8fafc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.multiLanguageHeader {
+  max-width: 900px;
+  margin: 0 auto 100px;
+  text-align: center;
+}
+
+.multiLanguageHeader h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #0f172a;
+}
+
+.multiLanguageHeader p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #475569;
+}
+
+.sdkSupportCard {
+  background: radial-gradient(
+    1200px 600px at 50% 100%,
+    #0b1a4a 0%,
+    #020d2f 70%
+  );
+  border-radius: 28px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 140px;
+  color: #ffffff;
+}
+
+.sdkText h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+.sdkLabel {
+  font-size: 16px;
+  color: #c7d2fe;
+}
+
+.sdkLink {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sdkIconsRow {
+  display: flex;
+  gap: 14px;
+}
+
+.sdkIconsRow img {
+  width: 54px;
+  height: 54px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+
+/* Features Split */
+.featureSplit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.featureSplit.reverse {
+  grid-template-columns: 1fr 1fr;
+}
+
+.featureImage {
+  border-radius: 26px;
+  overflow: hidden;
+}
+
+.darkImage {
+  background: radial-gradient(
+    600px 400px at 50% 20%,
+    #14225c 0%,
+    #020d2f 70%
+  );
+  padding: 30px;
+}
+
+.featureImage img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.featureContent h2 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #0f172a;
+}
+
+.featureContent p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #475569;
+  margin-bottom: 14px;
+}
+
+.featureContent a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #0f172a;
+}

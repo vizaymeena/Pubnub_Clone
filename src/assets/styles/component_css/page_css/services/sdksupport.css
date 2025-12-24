@@ -1,0 +1,92 @@
+
+.sdkSupportContainer {
+  background: linear-gradient(180deg, #030f3a 0%, #020b2f 100%);
+  border-radius: 28px;
+  padding: 64px 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 260px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ---------------- 
+LEFT SIDE 
+---------------- */
+
+.sdkSupportText {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.supportLabel {
+  font-size: 20px;
+  font-weight: 400;
+  color: #e5e7eb;
+}
+
+.supportValue {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  min-height: 52px; 
+  display: flex;
+  align-items: center;
+}
+
+.typingCursor {
+  margin-left: 4px;
+  font-weight: 400;
+  animation: blinkCursor 1s infinite;
+}
+
+
+.seeAllLink {
+  margin-top: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  opacity: 0.9;
+}
+
+.seeAllLink:hover {
+  opacity: 1;
+}
+
+/* ---------------- 
+RIGHT SIDE 
+---------------- */
+
+.sdkIconRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.sdkIconBox {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.sdkIconBox:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.sdkIconBox img {
+  width: 34px;
+  height: auto;
+  object-fit: contain;
+}

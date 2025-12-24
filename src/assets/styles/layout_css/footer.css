@@ -1,0 +1,84 @@
+.siteFooter {
+  background: radial-gradient(circle at top,#071a4a 0%,#020d2f 70% );
+  color: #ffffff;
+  padding: 80px 40px 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+   border-radius: 50px 50px 0px 0px;
+}
+
+.footerContainer {
+  max-width: 100%;
+  margin: 0 auto;
+ 
+}
+
+.footerColumns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.footerTitle {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 18px;
+}
+
+.footerList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerList li {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #e5e9ff;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.footerList li:hover {
+  color: #ffffff;
+}
+
+.footerBottom {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footerCopyright {
+  font-size: 13px;
+  line-height: 1.6;
+  max-width: 900px;
+  color: #cfd6ff;
+}
+
+.footerSocials {
+  display: flex;
+  gap: 14px;
+}
+
+.footerSocials span {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.footerSocials span:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.footerSocials svg {
+  font-size: 16px;
+}
