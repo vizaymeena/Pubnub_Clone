@@ -74,3 +74,27 @@
   border-radius: 14px;
   opacity: 0.95;
 }
+
+
+
+/* Media Query */
+@media (max-width: 480px) {
+  .applicationServicesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .applicationServicesHeader {
+    text-align: center;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .applicationServicesHeader h1 {
+    font-size: 26px;
+  }
+
+  .applicationServicesHeader p {
+    font-size: 14px;
+  }
+}

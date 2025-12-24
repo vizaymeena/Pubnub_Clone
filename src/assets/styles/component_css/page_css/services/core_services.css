@@ -104,3 +104,47 @@ CORE SERVICES
   border-radius: 14px;
   opacity: 0.95;
 }
+
+
+/* Media Query */
+@media (max-width: 480px) {
+  .coreServicesHero {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .heroImage img {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .serviceCards {
+    grid-template-columns: 1fr;
+  }
+
+  .serviceCard {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .serviceCard img {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .heroTitle {
+    font-size: 26px;
+  }
+
+  .heroDescription {
+    font-size: 14px;
+  }
+
+  .serviceCard {
+    padding: 20px;
+  }
+}

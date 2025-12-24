@@ -1,13 +1,5 @@
-import React from "react";
-import "../../assets/styles/component_css/page_css/services/multi_language.css";
 
-// SDK icons (replace with your assets if needed)
-// import jsIcon from "../../assets/photos/js.webp";
-// import pythonIcon from "../../assets/photos/python.webp";
-// import swiftIcon from "../../assets/photos/swift.webp";
-// import kotlinIcon from "../../assets/photos/kotlin.webp";
-// import javaIcon from "../../assets/photos/java.webp";
-// import unityIcon from "../../assets/photos/unity.webp";
+import "../../assets/styles/component_css/page_css/services/multi_language.css";
 
 import aiPreview from "../../assets/photos/aiPreview.webp";
 import templatesPreview from "../../assets/photos/templatePreview.webp";

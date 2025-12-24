@@ -1,14 +1,4 @@
 
-.sdkSupportContainer {
-  background: linear-gradient(180deg, #030f3a 0%, #020b2f 100%);
-  border-radius: 28px;
-  padding: 64px 72px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 260px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-}
 
 /* ---------------- 
 LEFT SIDE 
@@ -89,4 +79,74 @@ RIGHT SIDE
   width: 34px;
   height: auto;
   object-fit: contain;
+}
+
+
+/* Media Query */
+@media (max-width: 480px) {
+ 
+  /* LEFT */
+  .supportLabel {
+    font-size: 16px;
+  }
+
+  .supportValue {
+    font-size: 32px;
+    min-height: 42px;
+  }
+
+  .seeAllLink {
+    font-size: 14px;
+  }
+
+  /* RIGHT */
+  .sdkIconRow {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .sdkIconBox {
+    width: 100px;
+    height: 52px;
+    border-radius: 12px;
+  }
+
+  .sdkIconBox img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .sdkSupportContainer {
+    padding: 32px 18px;
+    gap: 26px;
+    border-radius: 18px;
+  }
+
+  .supportLabel {
+    font-size: 14px;
+  }
+
+  .supportValue {
+    font-size: 26px;
+    min-height: 36px;
+  }
+
+  .seeAllLink {
+    font-size: 13px;
+  }
+
+  .sdkIconRow {
+    gap: 10px;
+  }
+
+  .sdkIconBox {
+    margin-top: 0.4rem;
+    width: 30px;
+    height: 48px;
+  }
+
+  .sdkIconBox img {
+    width: 26px;
+  }
 }

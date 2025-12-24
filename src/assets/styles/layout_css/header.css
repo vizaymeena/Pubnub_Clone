@@ -123,3 +123,67 @@ Right
 }
 
 
+/* Media Query */
+@media (max-width: 480px) {
+  .headerContainer {
+    padding: 12px 16px;
+  }
+
+  .headerLeft {
+    gap: 16px;
+  }
+
+  .brandLogo {
+    height: 28px;
+  }
+
+  /* Hide desktop navigation */
+  .mainNavigation {
+    display: none;
+  }
+
+  .headerRight {
+    gap: 8px;
+  }
+
+  .salesButton,
+  .primaryButton {
+    padding: 8px 12px;
+    font-size: 13px;
+    border-radius: 8px;
+  }
+
+  .searchButton {
+    padding: 6px;
+  }
+
+  /* Prevent mega menu rendering offscreen */
+  .megaMenuContainer {
+    left: 0;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 360px) {
+  .headerContainer {
+    padding: 10px 12px;
+  }
+
+  .brandLogo {
+    height: 26px;
+  }
+
+  .headerRight {
+    gap: 6px;
+  }
+
+  /* Hide secondary CTA to save space */
+  .primaryButton {
+    display: none;
+  }
+
+  .salesButton {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+}
